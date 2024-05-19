@@ -1,6 +1,6 @@
 # Title
 
-Web content used to deploy into an EC2 instance running Apache2 service.
+IES Aljada Web content (of my own) used to deploy into an EC2 instance running Apache2 service.
 
 ## Install
 
@@ -17,7 +17,7 @@ sudo git clone https://github.com/PabloMedinaB/web-content.git /var/www/html/
 
 ## Usage
 
-The following script must be copied when to User Data when deploying an instance or creating an EC2 template.
+The following script must be copied to the User Data field when deploying an instance or creating an EC2 template.
 
 ## Contributing
 
