@@ -5,7 +5,7 @@ Web content used to deploy into an EC2 instance running Apache2 service.
 ## Install
 
 ```
-#!/bin/bash
+#!/bin/sh
 
 sudo apt update && sudo apt upgrade -y
 
