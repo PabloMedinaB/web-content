@@ -9,7 +9,7 @@ Web content used to deploy into an EC2 instance running Apache2 service.
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install apache2
+sudo apt install -y apache2
 sudo rm -f /var/www/html/index.html
 
 sudo git clone https://github.com/PabloMedinaB/web-content.git /var/www/html/
