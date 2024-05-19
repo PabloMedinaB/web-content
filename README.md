@@ -1,16 +1,23 @@
 # Title
 
-This is an example file with default selections.
+Web content used to deploy into an EC2 instance running Apache2 service.
 
 ## Install
 
 ```
+#!/bin/bash
+
+sudo apt update && sudo apt upgrade -y
+
+sudo apt install apache2
+sudo rm -f /var/www/html/index.html
+
+sudo git clone https://github.com/PabloMedinaB/web-content.git /var/www/html/
 ```
 
 ## Usage
 
-```
-```
+The following script must be copied when to User Data when deploying an instance or creating an EC2 template.
 
 ## Contributing
 
