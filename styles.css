@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0ff;
+}
+
+header {
+    background-color: #7e8fc9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px; /* Ajusta este valor según sea necesario */
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #dfe3f8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #4a4e69;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #6f71a8;
+}
+
+footer {
+    background-color: #7e8fc9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.horario,
+.contacto {
+    max-width: 80%; /* Ancho máximo para las secciones */
+    margin: 0 auto; /* Centrar horizontalmente las secciones */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.horario:hover,
+.contacto:hover {
+    transform: scale(1.1); /* Ajusta el factor de escala según sea necesario */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Para separar los elementos al máximo */
+    max-width: 800px; /* Ancho máximo para el contenedor */
+    margin: 0 auto; /* Centrar horizontalmente el contenedor */
+}
+
+.horario,
+.contacto {
+    width: 45%; /* Establece un ancho para cada sección */
+    padding: 20px;
+    background-color: #dfe3f8;
+    border-radius: 15px; /* Ajusta el radio de los bordes según sea necesario */
+    box-sizing: border-box; /* Incluye el padding en el ancho */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.horario {
+    margin-right: 20px; /* Añade un margen derecho para separar las secciones */
+}
+
+.contacto {
+    margin-left: 20px; /* Añade un margen izquierdo para separar las secciones */
+}
