@@ -1,2 +1,21 @@
-# web-content
-GitHub repository with Pablo Medina IES Aljada web files
+# Title
+
+This is an example file with default selections.
+
+## Install
+
+```
+```
+
+## Usage
+
+```
+```
+
+## Contributing
+
+PRs accepted.
+
+## License
+
+OS  @  Pablo Medina
