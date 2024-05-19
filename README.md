@@ -14,7 +14,7 @@ This is an example file with default selections.
 
 ## Contributing
 
-PRs accepted.
+PRs NOT accepted.
 
 ## License
 
