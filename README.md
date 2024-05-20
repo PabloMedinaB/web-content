@@ -13,6 +13,7 @@ sudo apt install -y apache2
 sudo rm -f /var/www/html/index.html
 
 sudo git clone https://github.com/PabloMedinaB/web-content.git /var/www/html/
+sudo sed -i "/<h1>Instituto de Educación Secundaria Aljada<\/h1>/a <h1>$(curl -s ifconfig.me)</h1>" /var/www/html/index.html
 ```
 
 ## Usage
